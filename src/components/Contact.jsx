@@ -85,16 +85,7 @@ const Contact = () => {
           Send Message
         </button>
       </form>
-      <ToastContainer 
-      position="bottom-center"
-      autoClose={3000}
-      hideProgressBar={false}
-      newestOnTop={false}
-      closeOnClick
-      rtl={false}
-      pauseOnFocusLoss
-      draggable
-      pauseOnHover />
+      
     </div>
   )
 }

@@ -27,7 +27,16 @@ const App = () => {
       <Video/>
       <GymFooter/>
       <Footer />     
-      <ToastContainer theme='dark' position='top-center' />
+      <ToastContainer 
+      position="top-center"
+      autoClose={3000}
+      hideProgressBar={false}
+      newestOnTop={false}
+      closeOnClick
+      rtl={false}
+      pauseOnFocusLoss
+      draggable
+      pauseOnHover />
     </Router>
     
   );
