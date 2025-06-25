@@ -7,19 +7,19 @@ const Pricing = () => {
     {
       imgurl: "./pricing.jpg",
       title: "QUARTERLY",
-      price: "18000",
+      price: "5000",
       length: 3
     },
     {
       imgurl: "./pricing.jpg",
       title: "HALF_YEARLY",
-      price: "34000",
+      price: "8000",
       length: 6
     },
     {
       imgurl: "./pricing.jpg",
       title: "YEARLY",
-      price: "67000", // this seemed too low before
+      price: "12000", // this seemed too low before
       length: 12
     }
   ];
@@ -44,7 +44,7 @@ const Pricing = () => {
                 <p><Check /> Free Rest Room</p>
                 <p><Check /> 24/7 Skilled Support</p>
                 <p><Check /> 20 Days Freezing Option</p>
-                <Link to="/">Join Now</Link>
+                <Link to="/">JOIN US</Link>
                 
               </div>
             </div>
